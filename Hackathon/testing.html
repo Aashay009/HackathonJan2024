@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farmers' Portal</title>
+<link rel="stylesheet" href="testCSS.css">
+<script src="testJS.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>Farmers' Portal</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#government-schemes">Government Schemes</a></li>
+    <li><a href="#weather">Weather</a></li>
+    <li><a href="#crop-recommendation">Crop Recommendation</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<section id="government-schemes">
+  <h2>Government Schemes</h2>
+  <p>Information on all government schemes for farmers.</p>
+  <!-- You can add more details here -->
+</section>
+
+<section id="weather">
+    <h2>Weather</h2>
+    <div id="weather-info">
+      <!-- Weather information will be displayed here -->
+    </div>
+  </section>
+  
+
+<section id="crop-recommendation">
+  <h2>Crop Recommendation</h2>
+  <p>Select your region and season:</p>
+  <select id="crop-region">
+    <option value="north">North Region</option>
+    <option value="south">South Region</option>
+    <option value="east">East Region</option>
+    <option value="west">West Region</option>
+  </select>
+  <select id="crop-season">
+    <option value="spring">Spring</option>
+    <option value="summer">Summer</option>
+    <option value="autumn">Autumn</option>
+    <option value="winter">Winter</option>
+  </select>
+  <div id="crop-recommendation-info">
+    <!-- Crop recommendation will be displayed here -->
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>&copy; 2024 Farmers' Portal</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
